@@ -1,14 +1,31 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto;
+}
+
+.hero,
+.footer {
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
+
+.logo {
+    color: #F9FAF8;
+    font-size:24px;
+}
+
+a,
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 
 ul {
     display: flex;
@@ -20,7 +37,6 @@ ul {
 }
 
 a {
-    color: black;
     text-decoration: none;
 }
 
@@ -29,6 +45,12 @@ a {
     display: flex;
     justify-content: space-between;
 
+}
+
+h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .content {
