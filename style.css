@@ -28,6 +28,7 @@ header {
 .logo {
     color: #F9FAF8;
     font-size:24px;
+    font-weight: 800;
 }
 
 a,
@@ -54,8 +55,8 @@ a {
 .place {
     display: flex;
     justify-content: space-between;
-    padding: 50px 200px;
-
+    padding: 120px 200px;
+    gap: 50px;
 }
 
 h2 {
@@ -66,11 +67,19 @@ h2 {
 }
 
 .placeholder {
-    width: 200px;
-    height: 200px;
-    background-color: #E5E7EB;
+    width: 1000px;
+    justify-content: stretch;
+    background-color: gray;
     border-style: none;
 }
+
+
+.top {
+    border-style: none;
+    margin-top: 15px;
+}
+
+
 
 .content {
     display: flex;
@@ -93,26 +102,37 @@ h2 {
     font-weight: 900;
     color: #1F2937;
     text-align: center;
+    margin: 50px;
 }
 
 .pictures {
     display: flex;
     gap: 20px; 
+    padding: 5px 300px;
+    justify-content: space-between;
     
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .info-image {
-    border-radius: 4px;
-    border-width: 8px;
+    border-radius: 15px;
+    border-width: 2px;
     border-color: #3882F6;
-    box-sizing: content-box;
-    width: 100px;
-    height: 100px;
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+    background-color: white;  
     
 }
 
 .text {
     text-align: center;
+    margin: 10px 0px;
 }
 
 
@@ -121,7 +141,7 @@ h2 {
     flex-direction: column;
     background-color: #E5E7EB;
     margin: 50px 0;
-    padding: 60px 400px;
+    padding: 60px 300px;
 
 }
 
@@ -145,19 +165,25 @@ h3 {
     justify-content: space-between;
     align-items: center;
     background-color: #3882F6;
-    margin: 0px auto 50px;
-    padding:20px;
+    margin: 0px 200px 50px;
     width: 800px;
     border-radius: 8px;
-    padding: 20px 50px;
+    padding: 50px 100px;
 
 }
 
 button {
-    padding: 5px;
-    border-radius: 4px;
+    padding: 8px 30px;
+    border-radius: 8px;
     background-color: #3882F6;
     color: #F9FAF8;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.bottom {
+    border-color: #F9FAF8;
+    border-style: solid;
 }
 
 footer {
