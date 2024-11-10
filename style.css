@@ -10,7 +10,7 @@ body {
 
 .hero,
 footer {
-    background-color: #1F2937;
+    background-color: #84b55a;
 }
 
 .hero {
@@ -125,7 +125,7 @@ h2 {
 .info-image {
     border-radius: 15px;
     border-width: 2px;
-    border-color: #3882F6;
+    border-color: #f7d46c;
     border-style: solid;
     width: 150px;
     height: 150px;
@@ -142,7 +142,7 @@ h2 {
 .quotation {
     display: flex;
     flex-direction: column;
-    background-color: #E5E7EB;
+    background-color: #eef08c;
     margin: 80px 0;
     padding: 60px 300px;
 
@@ -150,7 +150,7 @@ h2 {
 
 .quote {
     font-size: 36px;
-    color: #1F2937;
+    color: #54595f;
 
         font-family: "Roboto", sans-serif;
         font-weight: 300;
@@ -176,7 +176,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #3882F6;
+    background-color: #f7d46c;
     margin: 0px 200px 80px;
     width: 800px;
     border-radius: 8px;
@@ -187,7 +187,7 @@ h3 {
 button {
     padding: 8px 30px;
     border-radius: 8px;
-    background-color: #3882F6;
+    background-color: #f7d46c;
     color: #F9FAF8;
     font-size: 16px;
     font-weight: 900;
