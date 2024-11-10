@@ -31,7 +31,7 @@ header {
     font-weight: 800;
 }
 
-a,
+li a,
 .subtext {
     font-size: 18px;
     color: #E5E7EB;
@@ -68,9 +68,9 @@ h2 {
 
 .placeholder {
     width: 1000px; 
-    background-color: gray;
+    /* background-color: gray; */
     border-style: none;
-    color: #F9FAF8;
+    /* color: #F9FAF8; */
     align-items: center;
     justify-content: center;
     display: flex;
@@ -80,7 +80,7 @@ h2 {
     width: 531px; 
     height: 232px;
     object-fit: cover;
-    object-position: 10px 10px 10px 10px;
+    object-position: 0px -32px;
 }
 
 
@@ -155,7 +155,7 @@ h2 {
     height:150px;
     width: 150px;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 14px;
 }
 
 .quotation {
@@ -208,9 +208,13 @@ button {
     padding: 8px 30px;
     border-radius: 8px;
     background-color: #f7d46c;
-    color: #F9FAF8;
+    
     font-size: 16px;
     font-weight: 900;
+}
+
+button a {
+    color: #F9FAF8;
 }
 
 .bottom {
