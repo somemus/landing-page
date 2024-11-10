@@ -79,9 +79,12 @@ h2 {
 
 .top {
     border-style: none;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
+.subtext {
+    margin-top: 12px;
+}
 
 
 .content {
@@ -102,8 +105,8 @@ h2 {
 
 .title {
     font-size: 36px;
-    font-weight: 900;
-    color: #1F2937;
+    font-weight: 800;
+    color: gray;
     text-align: center;
     margin: 50px;
 }
@@ -130,12 +133,15 @@ h2 {
     width: 150px;
     height: 150px;
     background-color: white;  
+   
     
 }
 
 .text {
     text-align: center;
     margin: 10px 0px;
+    color: gray;
+    
 }
 
 
@@ -145,12 +151,13 @@ h2 {
     background-color: #eef08c;
     margin: 80px 0;
     padding: 60px 300px;
+    color: gray;
 
 }
 
 .quote {
     font-size: 36px;
-    color: #54595f;
+    
 
         font-family: "Roboto", sans-serif;
         font-weight: 300;
